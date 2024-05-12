@@ -23,11 +23,13 @@ Este repositório contém um script Python que utiliza um modelo de inteligênci
 * Clone o repositório para o seu computador.
 
 **Instale as bibliotecas necessárias:**
-* pip install -q -U requests PyPDF2 google-generativeai
+~~~py
+pip install -q -U requests PyPDF2 google-generativeai
+~~~
 * Substitua a chave de API do GCP no código (linha 10).
 
 **Exemplo de uso:**
-
+~~~md
 Suporte TopPortaria: Olá! Estou aqui para te auxiliar com qualquer dúvida que você tenha sobre o TopPortaria. Pode perguntar!
 O que é o TopPortaria?
 
@@ -74,6 +76,7 @@ Com este passo a passo, você poderá cadastrar os moradores, funcionários e ou
  
 Suporte RopPortaria: Teria outra pergunta? Estou aqui para ajudar! Para finalizar digite fim 
 fim
+~~~
 
 **Observações:**
 * Este script ainda está em desenvolvimento e pode ser aprimorado com novas funcionalidades.
